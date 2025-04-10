@@ -5,7 +5,7 @@ pygame.init()
 pygame.mixer.init()
 
 # Load a single music file
-music_file = "song1.mp3"  # Make sure this file is in the same folder as your script
+music_file = "song1.mp3"  
 pygame.mixer.music.load(music_file)
 
 # Create Pygame window
